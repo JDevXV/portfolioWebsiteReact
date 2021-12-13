@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+.intro {
+    border-bottom: 1px solid black;
+    padding-bottom: 200px;
+}
+
+.name {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 200px;
+}
+
+.iAmADesc {
+    margin-left: 950px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.iAmADescItems {
+    font-size: 50px;
+}
+
+.words {
+    display: inline;
+    padding-left: 10px;
+}
+
+.words span {
+    animation: rotate-words 20s infinite 0s;
+    color: purple;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.words span:nth-child(1){
+    animation-duration: 5s
+}
+.words span:nth-child(2){
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+.words span:nth-child(3){
+    animation-delay: 2s;
+    animation-duration: 5s
+}
+.words span:nth-child(4){
+    animation-delay: 3s;
+    animation-duration: 5s
+}
+
+@keyframes rotate-words {
+
+    0%{
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+    40% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+    60%{
+        opacity: 0;
+        transform: translateY(50px)
+    }
+    80% {
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 0;
+    }
+
+}

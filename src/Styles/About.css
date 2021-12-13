@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    border-bottom: 1px solid black;
+
+}
+
+.aboutTitle {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.jailene {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.aboutText {
+    width: 200px;
+    padding-left: 50px;
+}
