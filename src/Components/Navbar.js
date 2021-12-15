@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <header>
             <nav className="nav">
-                <img id="logo"src="https://i.imgur.com/g341xae.png" alt="JDevLogo" />
+                <img id="logo"src="https://i.imgur.com/9htL7pn.png" alt="JDevLogo" />
                 <ul className="nav-items">
                     <li>About</li>
                     <li>Skills</li>

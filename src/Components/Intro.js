@@ -16,6 +16,11 @@ const Intro = () => {
           </div>
         </h2>
       </div>
+      <div className="buttonDiv">
+        <button className="learnMore" type="button">
+          Learn More
+        </button>
+      </div>
     </div>
   );
 };

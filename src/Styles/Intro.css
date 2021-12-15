@@ -1,21 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 .intro {
     border-bottom: 1px solid black;
-    padding-bottom: 200px;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),
+    url('https://i.imgur.com/1ggJZFh.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
 }
 
 .name {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 75px;
     font-family: 'Roboto', sans-serif;
     padding-top: 200px;
+    color: white;
 }
 
 .iAmADesc {
-    margin-left: 950px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .iAmADescItems {
@@ -24,31 +35,34 @@
 
 .words {
     display: inline;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .words span {
     animation: rotate-words 20s infinite 0s;
-    color: purple;
     opacity: 0;
     overflow: hidden;
     position: absolute;
 }
 
 .words span:nth-child(1){
-    animation-duration: 5s
+    animation-duration: 5s;
+    color: #3D1773;
 }
 .words span:nth-child(2){
     animation-delay: 1s;
     animation-duration: 5s;
+    color: #650BBF;
 }
 .words span:nth-child(3){
     animation-delay: 2s;
-    animation-duration: 5s
+    animation-duration: 5s;
+    color: #447EF2;
 }
 .words span:nth-child(4){
     animation-delay: 3s;
-    animation-duration: 5s
+    animation-duration: 5s;
+    color: #05F2DB
 }
 
 @keyframes rotate-words {
@@ -76,4 +90,75 @@
         opacity: 0;
     }
 
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;    
+}
+
+
+.learnMore {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: 'Bakbak One', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.learnMore:before {
+    content: '';
+    background: linear-gradient(45deg, #EF13F2, #650BBF, #3D1773, #447EF2, #05F2DB, #447EF2, #3D1773, #650BBF, #EF13F2);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.learnMore:active {
+    color: #000
+}
+
+.learnMore:active:after {
+    background: transparent;
+}
+
+.learnMore:hover:before {
+    opacity: 1;
+}
+
+.learnMore:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }
