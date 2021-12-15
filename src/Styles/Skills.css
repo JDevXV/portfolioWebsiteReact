@@ -1,0 +1,42 @@
+.skillsDiv {
+  border-bottom: 1px solid black;
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://i.imgur.com/vSrNiL2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  margin-top: -50px;
+}
+
+.skillTitle {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 100px;
+}
+.skills {
+  height: 150px;
+}
+
+.skillsContainer li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+}

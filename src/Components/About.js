@@ -7,10 +7,10 @@ AOS.init();
 const About = () => {
   return (
     <div className="aboutBigDiv">
-      <div className="about" data-aos="fade-right">
-      <h1 className="aboutTitle">About Me</h1>
-        <img className="jailene" src="https://i.imgur.com/abzixqA.png" alt="Jailene DeVine-Jones"/>
-        <p className="aboutText">
+      <h1 className="aboutTitle" data-aos="fade-down">About Me</h1>
+      <div className="about">
+        <img className="jailene" src="https://i.imgur.com/abzixqA.png" alt="Jailene DeVine-Jones" data-aos="fade-right"/>
+        <p className="aboutText" data-aos="fade-left">
           This is my about me. I have no idea what to put here at the moment but
           it is something. Talk about JS, React, all that good stuff. Maybe even
           talk about how I like to game and play sudoku and tetris on my
