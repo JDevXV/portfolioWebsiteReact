@@ -6,8 +6,9 @@ AOS.init();
 
 const Projects = () => {
     return (
-        <div>
-
+        <div className="projectsDiv" id="projects">
+            <h1>Projects</h1>
+            <h2>Under Construction...</h2>            
         </div>
     )
 }

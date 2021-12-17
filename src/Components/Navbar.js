@@ -5,12 +5,12 @@ const Navbar = () => {
     return (
         <header>
             <nav className="nav">
-                <img id="logo"src="https://i.imgur.com/9htL7pn.png" alt="JDevLogo" />
+                <a href="#top"><img id="logo"src="https://i.imgur.com/9htL7pn.png" alt="JDevLogo" /></a>
                 <ul className="nav-items">
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </ul>
             </nav>
         </header>

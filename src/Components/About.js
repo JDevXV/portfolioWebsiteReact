@@ -6,9 +6,9 @@ AOS.init();
 
 const About = () => {
   return (
-    <div className="aboutBigDiv">
+    <div className="aboutBigDiv" id="about">
       <h1 className="aboutTitle" data-aos="fade-down">About Me</h1>
-      <div className="about">
+      <div className="aboutContainer">
         <img className="jailene" src="https://i.imgur.com/abzixqA.png" alt="Jailene DeVine-Jones" data-aos="fade-right"/>
         <p className="aboutText" data-aos="fade-left">
           This is my about me. I have no idea what to put here at the moment but

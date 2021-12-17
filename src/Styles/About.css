@@ -7,9 +7,10 @@
     background-size: cover;
     background-color: #000;
     margin-top: -50px;
+    height: 100vh;
 }
 
-.about {
+.aboutContainer {
   display: flex;
   justify-content: center;
   padding-top: 50px;
@@ -20,8 +21,9 @@
 
 .aboutTitle {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 200px;
   color: white;
+  font-size: 50px;
 }
 
 .jailene {

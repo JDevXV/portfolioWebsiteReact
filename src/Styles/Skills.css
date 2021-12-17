@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
 .skillsDiv {
-  border-bottom: 1px solid black;
   background: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("https://i.imgur.com/vSrNiL2.jpg");
   background-position: center;
@@ -7,14 +8,16 @@
   background-size: cover;
   background-color: #000;
   margin-top: -50px;
+  height: 100vh;
 }
 
 .skillTitle {
   color: white;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 200px;
   padding-bottom: 50px;
+  font-size: 50px;
 }
 
 .skillsContainer {
@@ -39,4 +42,6 @@
   -ms-flex-align: center;
   align-items: center;
   color: white;
+  font-family: 'Bakbak One', cursive;
+  font-size: 25px;
 }

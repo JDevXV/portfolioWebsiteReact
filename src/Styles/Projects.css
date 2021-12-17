@@ -1,0 +1,25 @@
+.projectsDiv {
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://i.imgur.com/LsEoYCl.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  margin-top: -40px;
+  color: white;
+  height: 100vh;
+}
+
+.projectsDiv h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+.projectsDiv h2{
+  display: flex;
+  justify-content: center;
+}

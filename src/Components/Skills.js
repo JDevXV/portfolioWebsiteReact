@@ -6,10 +6,10 @@ AOS.init();
 
 const Skills = () => {
   return (
-    <div className="skillsDiv">
-      <h1 className="skillTitle">Skills</h1>
+    <div className="skillsDiv" id="skills">
+      <h1 className="skillTitle" data-aos="fade-down">Skills</h1>
       <ul className="skillsContainer">
-        <li>
+        <li data-aos="flip-left">
           <img
             className="skills"
             alt="JavaScript"
@@ -17,7 +17,7 @@ const Skills = () => {
           />
           JavaScript
         </li>
-        <li>
+        <li data-aos="flip-left" data-aos-delay="100">
           <img
             className="skills"
             alt="HTML5"
@@ -25,15 +25,15 @@ const Skills = () => {
           />
           HTML5
         </li>
-        <li>
+        <li data-aos="flip-left" data-aos-delay="200">
           <img
             className="skills"
             alt="CSS3"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
           />
           CSS3
         </li>
-        <li>
+        <li data-aos="flip-left" data-aos-delay="300">
           <img
             className="skills"
             alt="React"
@@ -41,7 +41,7 @@ const Skills = () => {
           />
           React
         </li>
-        <li>
+        <li data-aos="flip-left" data-aos-delay="400">
           <img
             className="skills"
             alt="PostgreSQL"
@@ -49,7 +49,7 @@ const Skills = () => {
           />
           PostgreSQL
         </li>
-        <li>
+        <li data-aos="flip-left" data-aos-delay="500">
           <img
             className="skills"
             alt="Redux"
@@ -57,7 +57,7 @@ const Skills = () => {
           />
           Redux
         </li>
-        <li>
+        <li data-aos="flip-left" data-aos-delay="600">
           <img
             className="skills"
             alt="Python"
@@ -65,7 +65,7 @@ const Skills = () => {
           />
           Python
         </li>
-        <li>
+        <li data-aos="flip-left" data-aos-delay="700">
           <img
             className="skills"
             alt="nodeJS"
