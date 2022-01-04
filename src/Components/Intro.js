@@ -17,9 +17,10 @@ const Intro = () => {
         </h2>
       </div>
       <div className="buttonDiv">
-        <button className="learnMore" type="button">
+        <a href="#about"><button className="learnMore" type="button">
           Learn More
         </button>
+        </a>
       </div>
     </div>
   );

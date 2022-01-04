@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/About.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Jailene from "../Assets/Jailene.png"
 AOS.init();
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
     <div className="aboutBigDiv" id="about">
       <h1 className="aboutTitle" data-aos="fade-down">About Me</h1>
       <div className="aboutContainer">
-        <img className="jailene" src="https://i.imgur.com/abzixqA.png" alt="Jailene DeVine-Jones" data-aos="fade-right"/>
+        <img className="jailene" src={Jailene} alt="Jailene DeVine-Jones" data-aos="fade-right"/>
         <p className="aboutText" data-aos="fade-left">
           This is my about me. I have no idea what to put here at the moment but
           it is something. Talk about JS, React, all that good stuff. Maybe even
