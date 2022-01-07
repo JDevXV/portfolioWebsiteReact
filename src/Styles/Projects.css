@@ -7,7 +7,7 @@
   background-color: #000;
   margin-top: -40px;
   color: white;
-  height: 100vh;
+  height: 120vh;
 }
 
 .projectsDiv h1 {
@@ -27,11 +27,115 @@
 
 .calcDemoDesc {
   display: flex;
-  flex-flow: column wrap
+  flex-flow: column wrap;
+  margin-right: 175px;
+}
+
+.calcDemoDesc h4 {
+  font-style: italic
 }
 
 .calcDemoGif img{
   height: 500px;
+  width: 400px;
+  padding-top: 30px;
+  align-items: flex-end;
+}
+
+.calcDemoLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.givnDemo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.givnDemoDesc {
+  display: flex;
+  flex-flow: column wrap;
+  margin-right: 50px;
+}
+
+.givnDemoDesc h4 {
+  font-style: italic
+}
+
+.givnDemoGif img{
+  height: 250px;
   width: 500px;
   padding-top: 30px;
+}
+
+.givnDemoLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonLink {
+  margin-right: 50px;
+  margin-top: 30px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-family: 'Bakbak One', cursive;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonLink:before {
+  content: '';
+  background: linear-gradient(45deg, #EF13F2, #650BBF, #3D1773, #447EF2, #05F2DB, #447EF2, #3D1773, #650BBF, #EF13F2);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.buttonLink:active {
+  color: #000
+}
+
+.buttonLink:active:after {
+  background: transparent;
+}
+
+.buttonLink:hover:before {
+  opacity: 1;
+}
+
+.buttonLink:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
 }
