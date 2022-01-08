@@ -11,24 +11,30 @@ const Contact = () => {
             <h1>Stay Connected</h1>
             <h3>Please feel free to reach out!</h3>
             <div className="buttonDiv">
-            <button
+            <a
               className="connectButton"
               href="mailto:jailenedevinejones@gmail.com"
+              target="_blank"
+              rel="noreferrer" 
             >
               <LineIcon name="envelope"/>
-            </button>
-            <button
+            </a>
+            <a
               className="connectButton"
-              href="mailto:jailenedevinejones@gmail.com"
+              href="https://www.linkedin.com/in/jailene-devine-jones/"
+              target="_blank"
+              rel="noreferrer" 
             >
               <LineIcon name="linkedin"/>
-            </button>
-            <button
+            </a>
+            <a
               className="connectButton"
-              href="mailto:jailenedevinejones@gmail.com"
+              href="https://github.com/JDevXV"
+              target="_blank"
+              rel="noreferrer" 
             >
               <LineIcon name="github"/>
-            </button>
+            </a>
             </div>
         </div>
 
