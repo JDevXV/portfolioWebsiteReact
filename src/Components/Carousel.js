@@ -18,18 +18,22 @@ const CarouselComponent = () => {
               away.
             </p>
             <div className="givnDemoLinks">
-              <button
+              <a
                 className="buttonLink"
+                target="_blank"
+                rel="noreferrer"
                 href="https://givn-application.web.app"
               >
                 Live
-              </button>
-              <button
+              </a>
+              <a
                 className="buttonLink"
+                target="_blank"
+                rel="noreferrer"
                 href="https://github.com/JDevXV/Capstone-Givn"
               >
                 Github
-              </button>
+              </a>
             </div>
           </div>
           <div className="givnDemoGif">
@@ -42,18 +46,22 @@ const CarouselComponent = () => {
             <h4>JavaScript, HTML, CSS, React</h4>
             <p>A simple calculator app with an awesome neon glowing affect.</p>
             <div className="calcDemoLinks">
-              <button
+              <a
                 className="buttonLink"
+                target="_blank"
+                rel="noreferrer"
                 href="https://jdevxv-calculator.netlify.app"
               >
                 Live
-              </button>
-              <button
+              </a>
+              <a
                 className="buttonLink"
+                target="_blank"
+                rel="noreferrer"
                 href="https://github.com/JDevXV/FSW-React-Calculator"
               >
                 Github
-              </button>
+              </a>
             </div>
           </div>
           <div className="calcDemoGif">
