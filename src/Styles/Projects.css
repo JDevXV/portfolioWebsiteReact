@@ -17,6 +17,7 @@
   padding-top: 200px;
   padding-bottom: 50px;
   font-size: 50px;
+  font-family: 'Bakbak One', sans-serif;
 }
 
 .calcDemo {
@@ -29,10 +30,12 @@
   display: flex;
   flex-flow: column wrap;
   margin-right: 175px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .calcDemoDesc h4 {
-  font-style: italic
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
 }
 
 .calcDemoGif img{
@@ -57,10 +60,12 @@
   display: flex;
   flex-flow: column wrap;
   margin-right: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .givnDemoDesc h4 {
-  font-style: italic
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
 }
 
 .givnDemoGif img{
