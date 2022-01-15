@@ -3,11 +3,12 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import calcDemo from "../Assets/Calculator.png";
 import givnDemo from "../Assets/Givn.png"
+import binxCoin from "../Assets/BinxCoin.png"
 
 const CarouselComponent = () => {
   return (
     <div>
-      <Carousel infiniteLoop="true">
+      <Carousel infiniteLoop={true} showStatus={false}>
         <div className="givnDemo">
           <div className="givnDemoDesc">
             <h2>GIVN</h2>
@@ -66,6 +67,29 @@ const CarouselComponent = () => {
           </div>
           <div className="calcDemoGif">
             <img src={calcDemo} alt="Calculator Demo" />
+          </div>
+        </div>
+        <div className="binxCoin">
+          <div className="binxCoinDesc">
+            <h2>BinxCoin</h2>
+            <h4>Ubuntu Linux, Rust</h4>
+            <p>BinxCoin is a cryptocurrency token created on the Solana Blockchain.</p>
+            <div className="binxCoinLink">
+              <a className="buttonLink" target="_blank" rel="noreferrer" href="https://solscan.io/token/9kHy1fxEtRbQPSKUSEBXqMkVnKT9Kc2x5B4YvRNCfa44">
+                Solscan
+              </a>
+              <a
+                className="buttonLink"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/JDevXV/token-list"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+          <div className="binxCoinImg">
+            <img src={binxCoin} alt="BinxCoin" />
           </div>
         </div>
       </Carousel>
